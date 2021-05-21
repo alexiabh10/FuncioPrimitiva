@@ -1,0 +1,15 @@
+% Ti­tulo: Funciones Primitivas
+% Autor: Alexia Michell Blas Hernandez (alexiabh10) michhernandez1001@gmail.com
+% Fecha: 20210520
+% Grupo:3201
+% Correo: michhernandez1001@gmail.com
+% Materia: Calculo Integral
+% Funcion Indefinida 
+clc
+clear
+% Variable simbolica
+syms x;
+% Declaracion de Funcion 
+F=input('Funcion: ');
+% Integral
+i=int(F)
