@@ -1,0 +1,25 @@
+% Ti­tulo: Fuciones Primitivas
+% Autor: Alexia Michell Blas Hernandez (alexiabh10) michhernandez1001@gmail.com
+% Fecha: 20210520
+% Grupo:3201
+% Correo: michhernandez1001@gmail.com
+% Materia: Calculo Integral
+% Funcion Definida 
+clc
+clear
+syms x;
+%FUNCION f (x) = x+2
+F= x+2
+% Rango
+ x = -4: 0.1: 2; 
+% Valor de la función 
+ y= x+2;
+% Dibujar x, y
+ plot(x, y);
+% Titulo
+ title("f (x) =|x+2| ");
+% Etiqueta para x
+ xlabel ("x");
+% Etiqueta para y
+ ylabel ("y");
+ i=int (F)
