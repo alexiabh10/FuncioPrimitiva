@@ -1,0 +1,22 @@
+% Ti­tulo: Fuciones Primitivas
+% Autor: Alexia Michell Blas Hernandez (alexiabh10) michhernandez1001@gmail.com
+% Fecha: 20210520
+% Grupo:3201
+% Correo: michhernandez1001@gmail.com
+% Materia: Calculo Integral
+% Integral Definida 
+%Ejercicio 20: 3*x
+clc
+clear
+syms x;
+fx= input("Ingrese la funcion: ")
+funcion= inline (char(fx))
+a=input("Desde limite inferior ")
+b=input("Hasta limite superior: ")
+resultado=(b*3) - (a*3)
+
+
+x=-1:0.2:4;
+f=x;
+plot(f,x)
+bar(f,x,"m")
