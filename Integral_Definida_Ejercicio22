@@ -1,0 +1,23 @@
+% Ti­tulo: Fuciones Primitivas
+% Autor: Alexia Michell Blas Hernandez (alexiabh10) michhernandez1001@gmail.com
+% Fecha: 20210520
+% Grupo:3201
+% Correo: michhernandez1001@gmail.com
+% Materia: Calculo Integral
+% Integral Definida 
+%Ejercicio 22: 2*x^2-3*x 
+
+clc
+clear
+syms x;
+fx= input("Ingrese la funcion: ")
+funcion= inline (char(fx))
+a=input("Desde limite inferior ")
+b=input("Hasta limite superior: ")
+resultado=2*(b^3)/3-3*(a^2)/2 - 2*(-b^3)/3-3*(-a^2)/2
+
+
+x= -3:0.2:3;
+f=x;
+plot(f,x)
+bar(f,x,"m")
